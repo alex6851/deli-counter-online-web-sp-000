@@ -1,6 +1,6 @@
 require 'pry'
 def line(katz_deli)
-  if katz_deli.length < 0
+  if katz_deli.length > 0
     puts "The line is currently: #{katz_deli}"
   else
     "There is nobody waiting to be served!"
