@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.length > 0
     puts "The line is currently: #{katz_deli}"
   else
-    "There is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
 end
 
 def take_a_number(katz_deli,name)
