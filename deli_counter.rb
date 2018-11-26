@@ -4,5 +4,6 @@ end
 
 def take_a_number(katz_deli,name)
   katz_deli << name
-puts "Welcome #{name}. You are number #{array.length} in line"
+postion = array.length
+puts "Welcome #{name}. You are number #{position} in line"
 end
